@@ -1,0 +1,101 @@
+.Recommendtions {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .Recommendtions > section {
+    margin: 2rem 0 1rem 0;
+  }
+  
+  .Recommendtions > .controls {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .Recommendtions > input {
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .Recommendtions > button {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #7f21eb;
+    color: #f3f3f3;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+  }
+  
+  .Recommendtions > button:hover {
+    background-color: #6c13d1;
+    cursor: pointer;
+  }
+
+  .MealList > h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .MealList > .nutrients ul {
+    display: flex;
+    width: 35rem;
+    justify-content: space-evenly;
+  }
+  
+  .MealList > .meals {
+    display: flex;
+  }
+  
+  .Meal > img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .Meal > article {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 0 1rem;
+    max-width: 300px;
+    box-shadow: 0 4px 8px 2px rgba(77, 77, 77, 0.15);
+  }
+  
+  .Meal > ul {
+    list-style: none;
+  }
+  
+  .Meal > .instructions {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .Meal > a {
+    text-decoration: none;
+    background-color: #7f21eb;
+    color: #f3f3f3;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+  }
+  
+  .Meal > a:hover {
+    background-color: #6c13d1;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .MealList > .meals {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .MealList > .nutrients ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  }
